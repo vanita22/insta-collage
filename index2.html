@@ -5,10 +5,57 @@
   <title>insta college</title>
   <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Montserrat" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
   <header>
+  <div class="container">
+
+  	<!--menú-->
+  	<!--contenedor menú final-->
+  	<div class="row" align="center">
+  		<div class="col-md-12" id="box" ondragover="permitirDrop(menu)" ondrop="drop(menu)">  
+  			<h1 style="color: black">Arma tu menú!</h1><br>
+  			<div class="menu" ondragover="permitirDrop(event)" ondrop="drop(event)">Tú plato de entrada</div>
+  			<div class="menu" ondragover="permitirDrop(event)" ondrop="drop(event)">Tú plato principal</div>
+  			<div class="menu" ondragover="permitirDrop(event)" ondrop="drop(event)">Tú postre</div>
+  		</div>
+  	</div>
+
+  	<!--platos menu-->
+  	<div class="row" align="center">
+  		<div class="col-md-4" id="box1">
+  			<h2>Menú de entrada</h2><br>
+  			<h3>Tomate relleno</h3>
+  			<img id="plato1" draggable="true" ondragstart="drag(event)" src="img/principal.jpg" width="200" height="200" placeholder="Tomate relleno">
+  			<h3>Causa peruana</h3>
+  			<img id="plato2" draggable="true" ondragstart="drag(event)" src="img/causa.jpg" width="200" height="200">
+  			<h3>Camarón sarteado</h3>
+  			<img id="plato3" draggable="true" ondragstart="drag(event)" src="img/camaron.jpg" width="200" height="200">
+  		</div> 
+
+  		<div class="col-md-4" id="box1">
+  			<h2>Menú principal</h2><br>
+  			<h3>Pastel de choclo</h3>
+  			<img id="plato4" draggable="true" ondragstart="drag(event)" src="img/pastel.jpg" width="200" height="200">
+  			<h3>Cazuela de pollo</h3>
+  			<img id="plato5" draggable="true" ondragstart="drag(event)" src="img/cazuela.jpg" width="200" height="200">
+  			<h3>Bistec a lo pobre con arroz</h3>
+  			<img id="plato6" draggable="true" ondragstart="drag(event)" src="img/bistec.jpg" width="200" height="200">
+  		</div>
+
+  		<div class="col-md-4" id="box1">
+  			<h2>Postre</h2><br>
+  			<h3>Tronquito</h3>
+  			<img id="plato7" draggable="true" ondragstart="drag(event)" src="img/tronco.jpg" width="200" height="200">
+  			<h3>Mouse de frutilla</h3>
+  			<img id="plato8" draggable="true" ondragstart="drag(event)" src="img/mouse.jpg" width="200" height="200">
+  			<h3>Tarta de chocolate</h3>
+  			<img id="plato9" draggable="true" ondragstart="drag(event)" src="img/tarta.jpg" width="200" height="200">
+  		</div> 		
+  	</div>
+  </div>
     
   </header>
   

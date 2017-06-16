@@ -3,6 +3,7 @@ body{
 	color: white;	
 	width: 100%;
 	height: 100vh;
+	font-family: 'Kaushan Script', cursive;
 }
 
 #cajita{
@@ -24,7 +25,7 @@ body{
 	height: 80px;
 	font-size: 25px;
 	font-weight: bold;
-	margin-top: 400px;
+	margin-top: 420px;
 	border: 3px solid white;	
 	padding: 10px 20px;
 	position: absolute;
@@ -34,12 +35,11 @@ body{
 }
 
 #cajita h1{
-	font-size: 55px;	
-	font-family: 'Pacifico', cursive;	
+	font-size: 65px;		
 }
 
 #cajita h3{		
-	font-family: 'Pacifico', cursive;	
+	font-size: 30px;		
 }
 
 #cajita input{
@@ -50,6 +50,7 @@ body{
 #cajita label{
 	color: white;
 	font-weight: bold;
+	font-size: 20px;
 }
 
 #name{
@@ -60,4 +61,43 @@ body{
 #password{
 	margin-bottom: 0px;
 	margin-left: 190px;
+}
+
+/*INDEX 2*/
+
+/*contenedor menú final*/
+
+header{
+	background-image: url(../img/comida2.jpg);
+	position: static;
+	color: white;	
+	width: 100%;
+	height: 100vh;
+	font-family: 'Kaushan Script', cursive;
+}
+
+#box h1{
+	color: black;
+	font-size: 60px;
+	margin-top: 60px;
+}
+
+.menu{
+	width: 290px;
+	height: 290px;
+	background-color: rgba(0, 0, 0, 0.8);
+	border: 6px solid #BEBBBB;
+	color: white;
+	display: inline-block;
+}
+
+#box1{
+	width: 250px;
+	height: 900px;
+	margin-top: 40px;
+	margin-left: 130px;
+	background-color: rgba(0, 0, 0, 0.9);
+	border: 6px solid #BEBBBB;
+	color: white;
+	display: inline;
 }
